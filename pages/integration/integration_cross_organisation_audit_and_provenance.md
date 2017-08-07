@@ -76,7 +76,7 @@ Provider systems SHALL respond to oAuth Bearer Token errors inline with [RFC 675
 
 Consumer system SHALL generate a new JWT for each API request.
 
-| Claim | Priority | Description | Fixed Value | Dynamic Value |
+| Claim | Optionality | Description | Fixed Value | Dynamic Value |
 |-------|----------|-------------|-------------|------------------|
 | iss | R | Requesting systems issuer URI | No | Yes |
 | sub | R | ID for the user on whose behalf this request is being made. Matches `requesting_practitioner.id` | No | Yes |
